@@ -25,11 +25,11 @@ def unfriend(x):
     driver.find_element(By.XPATH,'/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[1]').click()
     time.sleep(2)
 
-
+USER = "Enter your pc's USER NAME"
 
 driver_path = Service('driver/chromedriver.exe')
 profiles = webdriver.ChromeOptions()
-profiles.add_argument("--user-data-dir=/Users/A.I.N/AppData/Local/Google/Chrome/User Data/")
+profiles.add_argument("--user-data-dir=/Users/"+USER+"/AppData/Local/Google/Chrome/User Data/")
 profiles.add_argument("--profile-directory=Default")
 driver = webdriver.Chrome(service=driver_path, options=profiles)
 link = 'https://www.facebook.com/friends/list'
