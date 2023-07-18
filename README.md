@@ -1,3 +1,7 @@
+An Upwork client gave me a job to unfriend his facebook friend . He also gave me a list of friends to unfriend them . But manual process is too much boooring . 
+
+I am a python script writer so then I developed a script and now I am sharing that with you . 
+
 In this facebook_unfriend.py files there are many important things about the selenium .
 IN that script the selenium will unfriend the targeted friend which is given into the excel sheet . 
 Remember to mention the Excel file name . 
